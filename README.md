@@ -19,7 +19,7 @@ sudo apt install libopencv-dev
 ```
 If you use CUDA, compile and install CUDA enabled OPENCV. check [InstallOPENCV.md](https://github.com/ZhenghaoFei/visual_odom/blob/master/InstallOPENCV.md)
 
-[Ceres-solver][http://ceres-solver.org/]
+[Ceres-solver](http://ceres-solver.org/)  
 Detailed installation guide is given at [InstallCeres-solver](http://ceres-solver.org/installation.html)
 
 ### Dataset
