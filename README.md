@@ -1,6 +1,7 @@
 ## Stereo Visual Odometry
 
-This repository is C++ OpenCV implementation of Stereo Visual Odometry, using OpenCV calcOpticalFlowPyrLK for feature tracking.
+This repository is C++ OpenCV implementation of Stereo Visual Odometry imported from [ZhenghaoFei](https://github.com/ZhenghaoFei/visual_odom). 
+Local BA is impelmented using Ceres-solver. 
 
 Reference Paper: https://lamor.fer.hr/images/50020776/Cvisic2017.pdf
 
