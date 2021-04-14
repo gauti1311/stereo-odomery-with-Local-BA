@@ -19,10 +19,13 @@ sudo apt install libopencv-dev
 ```
 If you use CUDA, compile and install CUDA enabled OPENCV. check [InstallOPENCV.md](https://github.com/ZhenghaoFei/visual_odom/blob/master/InstallOPENCV.md)
 
+[Ceres-solver][http://ceres-solver.org/]
+Detailed installation guide is given at [InstallCeres-solver](http://ceres-solver.org/installation.html)
+
 ### Dataset
 Tested on [KITTI](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) odometry dataset
 
-### Compile & Run
+### Installation 
 ```bash
 git clone https://github.com/ZhenghaoFei/visual_odom.git
 ```
@@ -33,7 +36,10 @@ mkdir build
 cd build
 cmake ..
 make -j4
-./run /PathToKITTI/sequences/00/ ../calibration/kitti00.yaml
+```
+### Run
+```
+./run /PathToKITTI/sequences/00/ ../calibration/kitti00.yaml ../gt_pose/00.txt 
 ```
 
 ### GPU CUDA acceleration
