@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gautam/projects/visual_odom-master/src/parametersse3.cpp
+parametersse3.hpp
+/home/gautam/projects/visual_odom-master/src/parametersse3.hpp
+
+/home/gautam/projects/visual_odom-master/src/parametersse3.hpp
+Eigen
+-
+Eigen/Geometry
+-
+iostream
+-
+ceres/ceres.h
+-
+se3.hpp
+/home/gautam/projects/visual_odom-master/src/se3.hpp
+
+/home/gautam/projects/visual_odom-master/src/se3.hpp
+Eigen/Core
+-
+Eigen/Geometry
+-
+math.h
+-
+

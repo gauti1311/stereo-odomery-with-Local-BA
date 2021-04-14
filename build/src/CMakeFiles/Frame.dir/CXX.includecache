@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gautam/projects/visual_odom-master/src/Frame.cpp
+Frame.h
+/home/gautam/projects/visual_odom-master/src/Frame.h
+
+/home/gautam/projects/visual_odom-master/src/Frame.h
+vector
+-
+string
+-
+iostream
+-
+opencv2/opencv.hpp
+-
+opencv2/features2d/features2d.hpp
+/home/gautam/projects/visual_odom-master/src/opencv2/features2d/features2d.hpp
+opencv2/calib3d/calib3d.hpp
+/home/gautam/projects/visual_odom-master/src/opencv2/calib3d/calib3d.hpp
+
