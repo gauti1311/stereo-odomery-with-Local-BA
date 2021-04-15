@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libevaluate_odometry.so -o libevaluate_odometry.so CMakeFiles/evaluate_odometry.dir/evaluate_odometry.cpp.o -Wl,-rpath,/home/gautam/projects/visual_odom-master/build/src/evaluate libmatrix.so 
