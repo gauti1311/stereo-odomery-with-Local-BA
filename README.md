@@ -28,7 +28,7 @@ Tested on [KITTI](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) odomet
 
 ### Installation 
 ```bash
-git clone https://github.com/ZhenghaoFei/visual_odom.git
+git clone https://github.com/gauti1311/stereo-odomery-with-Local-BA.git
 ```
 The system use **Camera Parameters** in calibration/xx.yaml, put your own camera parameters in the same format and pass the path when you run.
 
